@@ -60,7 +60,7 @@ const Index = () => {
             transition={{ duration: 0.5 }}
             className="font-display text-xl tracking-widest text-primary-foreground/70 uppercase"
           >
-            Lavoura
+            {"\n"}
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
