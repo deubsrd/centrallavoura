@@ -39,7 +39,7 @@ const supportItems = [
   },
   {
     title: "Suporte Franquia",
-    description: "Dúvidas gerais e suporte da Lavoura",
+    description: "Máquinas, dosadoras e demais dúvidas",
     links: [
       { label: "Contato 1", href: "https://wa.me/5592991176452" },
       { label: "Contato 2", href: "https://wa.me/554791401427" },
