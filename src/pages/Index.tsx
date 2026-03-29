@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Monitor, Coffee, Refrigerator, Headphones, ScanFace, LifeBuoy } from "lucide-react";
 import OperationCard from "@/components/OperationCard";
 import SupportCard from "@/components/SupportCard";
+import logoLavoura from "@/assets/logo-lavoura.png";
 
 const operationSystems = [
   {
@@ -54,14 +55,14 @@ const Index = () => {
       {/* Hero */}
       <section className="relative overflow-hidden bg-primary px-6 py-20 md:py-28">
         <div className="mx-auto max-w-4xl text-center">
-          <motion.p
+          <motion.img
+            src={logoLavoura}
+            alt="Lavoura"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="font-display text-xl tracking-widest text-primary-foreground/70 uppercase"
-          >
-            {"\n"}
-          </motion.p>
+            className="mx-auto h-16 md:h-20 object-contain"
+          />
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
