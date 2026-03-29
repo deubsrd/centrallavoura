@@ -6,19 +6,19 @@ import SupportCard from "@/components/SupportCard";
 const operationSystems = [
   {
     title: "Totem de Pagamento",
-    description: "Gerencie pagamentos e ciclos das máquinas",
+    description: "Gerencie pagamentos e ciclos das máquinas.",
     href: "https://maxlav.maxpan.com.br/system",
     icon: <Monitor className="h-6 w-6" />,
   },
   {
     title: "Máquina de Café",
-    description: "Controle e monitoramento do café",
+    description: "Controle e monitoramento do café.",
     href: "https://app.macpay.com.br/login",
     icon: <Coffee className="h-6 w-6" />,
   },
   {
-    title: "Geladeira Inteligente",
-    description: "Controle de consumo e operação da geladeira",
+    title: "Geladeira Inteligente / Face Id",
+    description: "Controle de consumo, operação da geladeira ou controle de entrada e saída da loja.",
     href: "https://touchpay.market/#/dashboard",
     icon: <Refrigerator className="h-6 w-6" />,
   },
