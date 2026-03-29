@@ -101,7 +101,7 @@ const Index = () => {
           >
             Sistemas da Operação
           </motion.h2>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-5">
             {operationSystems.map((system, i) => (
               <OperationCard key={system.title} {...system} index={i} />
             ))}
@@ -120,7 +120,7 @@ const Index = () => {
           >
             Suporte
           </motion.h2>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-5">
             {supportItems.map((item, i) => (
               <SupportCard key={item.title} {...item} index={i} />
             ))}
