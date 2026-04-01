@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Monitor, Coffee, Refrigerator, Headphones, ScanFace, LifeBuoy } from "lucide-react";
+import { Monitor, Coffee, Refrigerator, Headphones, ScanFace, LifeBuoy, DollarSign } from "lucide-react";
 import OperationCard from "@/components/OperationCard";
 import SupportCard from "@/components/SupportCard";
 import logoLavoura from "@/assets/logo-lavoura.png";
@@ -22,6 +22,12 @@ const operationSystems = [
     description: "Controle de consumo, operação da geladeira ou controle de entrada e saída da loja.",
     href: "https://touchpay.market/#/dashboard",
     icon: <Refrigerator className="h-6 w-6" />,
+  },
+  {
+    title: "Gestão Financeira",
+    description: "Controle financeiro completo para sua franquia.",
+    href: "https://lavourafinancas.lovable.app",
+    icon: <DollarSign className="h-6 w-6" />,
   },
 ];
 
