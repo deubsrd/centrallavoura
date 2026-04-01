@@ -23,7 +23,12 @@ const operationSystems = [
     href: "https://touchpay.market/#/dashboard",
     icon: <Refrigerator className="h-6 w-6" />,
   },
-];
+  {
+    title: "Gestão Financeira",
+    description: "Controle financeiro completo para sua franquia.",
+    href: "https://lavourafinancas.lovable.app",
+    icon: <DollarSign className="h-6 w-6" />,
+  },
 
 const supportItems = [
   {
