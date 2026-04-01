@@ -29,6 +29,7 @@ const operationSystems = [
     href: "https://lavourafinancas.lovable.app",
     icon: <DollarSign className="h-6 w-6" />,
   },
+];
 
 const supportItems = [
   {
