@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Monitor, Coffee, Refrigerator, Headphones, ScanFace, LifeBuoy } from "lucide-react";
+import { Monitor, Coffee, Refrigerator, Headphones, ScanFace, LifeBuoy, DollarSign } from "lucide-react";
 import OperationCard from "@/components/OperationCard";
 import SupportCard from "@/components/SupportCard";
 import logoLavoura from "@/assets/logo-lavoura.png";
