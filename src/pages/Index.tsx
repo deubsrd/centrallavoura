@@ -8,7 +8,7 @@ const operationSystems = [
   {
     title: "Totem de Pagamento",
     description: "Gerencie pagamentos e ciclos das máquinas.",
-    href: "https://maxlav.maxpan.com.br/system",
+    href: "https://lavoura.maxpan.com.br/",
     icon: <Monitor className="h-6 w-6" />,
   },
   {
