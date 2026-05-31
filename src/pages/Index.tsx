@@ -6,7 +6,6 @@ import {
   Headphones,
   LifeBuoy,
   DollarSign,
-  Wallet,
   BookOpen,
   PlayCircle,
   LogOut,
@@ -43,12 +42,6 @@ const operationSystems = [
     description: "Controle financeiro completo para sua franquia.",
     href: "https://lavourafinancas.lovable.app",
     icon: <DollarSign className="h-6 w-6" />,
-  },
-  {
-    title: "Clube Lavoura",
-    description: "Gerencie assinaturas e benefícios dos clientes do clube.",
-    href: "#",
-    icon: <Wallet className="h-6 w-6" />,
   },
 ];
 
