@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Lock, Eye, EyeOff, AlertCircle } from "lucide-react";
-import logoLavoura from "@/assets/logo-lavoura.png";
+import logoLavoura from "@/assets/logo-lavoura.svg";
 
 const FRANCHISE_PASSWORD = "lavoura2026";
 
@@ -48,7 +48,9 @@ const Login = ({ onLogin }: LoginProps) => {
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           {/* Logo */}
           <div className="flex justify-center mb-6">
-            <img src={logoLavoura} alt="Lavoura" className="h-12 object-contain" />
+            <div className="bg-primary rounded-lg px-4 py-2">
+              <img src={logoLavoura} alt="Lavoura" className="h-10 object-contain" />
+            </div>
           </div>
 
           <div className="text-center mb-8">

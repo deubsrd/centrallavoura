@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import OperationCard from "@/components/OperationCard";
 import SupportCard from "@/components/SupportCard";
-import logoLavoura from "@/assets/logo-lavoura.png";
+import logoLavoura from "@/assets/logo-lavoura.svg";
 
 interface IndexProps {
   onLogout: () => void;
