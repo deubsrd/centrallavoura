@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,14 +6,14 @@
 
 @layer base {
   :root {
-    --background: 100 4% 99%;
-    --foreground: 150 13% 18%;
+    --background: 100 4% 98%;
+    --foreground: 150 13% 16%;
 
     --card: 0 0% 100%;
-    --card-foreground: 150 13% 18%;
+    --card-foreground: 150 13% 16%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 150 13% 18%;
+    --popover-foreground: 150 13% 16%;
 
     --primary: 150 13% 28%;
     --primary-foreground: 0 0% 99%;
@@ -30,17 +30,20 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 140 10% 90%;
-    --input: 140 10% 90%;
+    --border: 140 10% 88%;
+    --input: 140 10% 88%;
     --ring: 150 13% 28%;
 
     --radius: 0.75rem;
 
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-display: 'Bebas Neue', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
 
-    --shadow-card: 0 2px 16px -4px hsla(150, 13%, 18%, 0.06);
-    --shadow-card-hover: 0 8px 32px -8px hsla(150, 13%, 18%, 0.12);
+    --shadow-card: 0 2px 16px -4px hsla(150, 13%, 18%, 0.07);
+    --shadow-card-hover: 0 8px 32px -8px hsla(150, 13%, 18%, 0.14);
+
+    --whatsapp: #25D366;
+    --whatsapp-dark: #1ebe5d;
   }
 }
 
