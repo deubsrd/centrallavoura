@@ -48,9 +48,7 @@ const Login = ({ onLogin }: LoginProps) => {
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           {/* Logo */}
           <div className="flex justify-center mb-6">
-            <div className="bg-primary rounded-lg px-4 py-2">
-              <img src={logoLavoura} alt="Lavoura" className="h-10 object-contain" />
-            </div>
+            <img src={logoLavoura} alt="Lavoura" className="h-12 object-contain" />
           </div>
 
           <div className="text-center mb-8">
